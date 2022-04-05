@@ -1,0 +1,5 @@
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Obligatorio1\obj\Debug\netcoreapp3.1\Obligatorio1.csproj.AssemblyReference.cache
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Obligatorio1\obj\Debug\netcoreapp3.1\Obligatorio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Obligatorio1\obj\Debug\netcoreapp3.1\Obligatorio1.AssemblyInfoInputs.cache
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Obligatorio1\obj\Debug\netcoreapp3.1\Obligatorio1.AssemblyInfo.cs
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Obligatorio1\obj\Debug\netcoreapp3.1\Obligatorio1.csproj.CoreCompileInputs.cache

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Repositorios\\Repositorios.csproj": {}
+    "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Repositorios\\Repositorios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\Silvina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\scortes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Silvina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\scortes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,86 +55,32 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
             }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Obligatorio1\\Obligatorio1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Obligatorio1\\Obligatorio1.csproj",
-        "projectName": "Obligatorio1",
-        "projectPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Obligatorio1\\Obligatorio1.csproj",
-        "packagesPath": "C:\\Users\\Silvina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Obligatorio1\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Silvina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "SQLitePCLRaw.core": {
-              "target": "Package",
-              "version": "[2.0.7, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
           ],
-          "assetTargetFallback": true,
-          "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Repositorios\\Repositorios.csproj": {
+    "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Repositorios\\Repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Repositorios\\Repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Repositorios\\Repositorios.csproj",
         "projectName": "Repositorios",
-        "projectPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Repositorios\\Repositorios.csproj",
-        "packagesPath": "C:\\Users\\Silvina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Repositorios\\obj\\",
+        "projectPath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Repositorios\\Repositorios.csproj",
+        "packagesPath": "C:\\Users\\scortes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Repositorios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Silvina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\scortes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,11 +94,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj"
-              },
-              "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Obligatorio1\\Obligatorio1.csproj": {
-                "projectPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Obligatorio1\\Obligatorio1.csproj"
+              "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -167,6 +110,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[3.1.23, )"
@@ -190,12 +137,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

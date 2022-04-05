@@ -1,0 +1,5 @@
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.csproj.AssemblyReference.cache
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.AssemblyInfoInputs.cache
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.AssemblyInfo.cs
+C:\Users\scortes\Desktop\Obli P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.csproj.CoreCompileInputs.cache

@@ -1,4 +1,8 @@
 ﻿using System;
+using Dominio.InterfacesRepositorio;
+using Dominio.EntidadesNegocio;
+using Repositorios;
+using CasosUso;
 
 namespace Obligatorio1
 {
