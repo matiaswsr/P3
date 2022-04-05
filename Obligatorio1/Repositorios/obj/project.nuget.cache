@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "tjQQ0yQM/yi4pms74ONnLwp03KGX20mWc00fzvJ1wFk1GRPC8YfYmkoSTLOIpf+StYWVGreMt/1bKq+Oh3KuUg==",
+  "dgSpecHash": "quoknw+1eL5h0FRuHgDPk3aMhAjvEduKf/QwmiB55r5spxKDylbZl4dqdc862oNGOE5PnLOTiP+gA9UWNUdxcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Repositorios\\Repositorios.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.23\\microsoft.extensions.configuration.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.23\\microsoft.extensions.configuration.abstractions.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.23\\microsoft.extensions.configuration.fileextensions.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.23\\microsoft.extensions.configuration.json.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.23\\microsoft.extensions.fileproviders.abstractions.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.23\\microsoft.extensions.fileproviders.physical.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.23\\microsoft.extensions.filesystemglobbing.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.23\\microsoft.extensions.primitives.3.1.23.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\sqlitepclraw.core\\2.0.7\\sqlitepclraw.core.2.0.7.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

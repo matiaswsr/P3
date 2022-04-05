@@ -4,7 +4,8 @@ using System.Text;
 
 namespace CasosUso
 {
-    class ManejadorCompra
+    class ManejadorCompra: IManejadorCompra
+
     {
     }
 }

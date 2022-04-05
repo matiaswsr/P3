@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "J/mf23aSVeZih+6Gfkv77k3Dww+EPqcf7Bgyj20GQu0ixbJjEyJE5k/W7EkZx9LhWtr/bpWJD9A2Effq6rDSZw==",
+  "dgSpecHash": "KNQ9x71aVNKl/J0oGOWsxT3cBy7JD2+UeTGfl6sGofZ+pIOay50KgpTzO98xQ7DOXkLYdmVqP9c9f6Pz73avIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Silvina\\.nuget\\packages\\sqlitepclraw.core\\2.0.7\\sqlitepclraw.core.2.0.7.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

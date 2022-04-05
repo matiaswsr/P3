@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CasosUso
 {
-    class ManejadorTipoPlanta
+    class ManejadorTipoPlanta:IManejadorTipoPlanta
     {
     }
 }
