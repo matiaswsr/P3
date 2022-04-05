@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repositorios
+namespace Dominio
 {
-    interface IRepositorioCompra
+    public interface IRepositorioCompra
     {
     }
 }

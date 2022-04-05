@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CasosUso
 {
-    class ManejadorUsuario
+    class ManejadorUsuario: IManejadorUsuario
     {
     }
 }
