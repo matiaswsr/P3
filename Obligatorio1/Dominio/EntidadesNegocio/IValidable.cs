@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
-    interface IValidable
+    public interface IValidable
     {
         bool SoyValido();
     }

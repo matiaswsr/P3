@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Obligatorio1"
+    "\\Obligatorio1",
+    "\\Obligatorio1\\CasosUso",
+    "\\Obligatorio1\\Dominio",
+    "\\Obligatorio1\\Dominio\\EntidadesNegocio",
+    "\\Obligatorio1\\Obligatorio1",
+    "\\Obligatorio1\\Repositorios"
   ],
   "PreviewInSolutionExplorer": false
 }

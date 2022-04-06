@@ -66,19 +66,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\scortes\\.nuget\\packages\\": {}
+    "C:\\Users\\Silvina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\scortes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\Silvina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\scortes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Silvina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -119,18 +119,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.22, 3.1.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
-    class Usuario: IValidable
+    public class Usuario: IValidable
     {
         public string Email { get; set; }
         public string Contrasenia { get; set; }

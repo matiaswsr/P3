@@ -6,7 +6,7 @@ using Dominio.EntidadesNegocio;
 
 namespace CasosUso
 {
-    class ManejadorUsuario: IManejadorUsuario
+    public class ManejadorUsuario: IManejadorUsuario
     {
         public IRepositorioUsuario RepoUsuario { get; set; }
 
@@ -16,22 +16,32 @@ namespace CasosUso
             RepoUsuario = repo;
         }
 
-        public bool AgregarNuevoUsuario(Usuario u)
+        public bool AddUsuario(Usuario u)
         {
-            return RepoUsuario.Add(c);
+            return RepoUsuario.Add(u);
         }
 
-        public bool DarDeBajaUsuario(int id)
+        public bool RemoveUsuario(int id)
         {
             return RepoUsuario.Remove(id);
         }
 
-        public IEnumerable<Usuario> TraerTodosUsuario()
+        public bool UpdateUsuario(Usuario u)
+        {
+            return RepoUsuario.Update(u);
+        }
+
+        public IEnumerable<Usuario> FindAllUsuario()
         {
             return RepoUsuario.FindAll();
         }
 
-        //RESTO DE OPERACIONES CRUD y FUNCIONALIDADES (CASOS DE USO) DE USUARIO
+        public Usuario FindByIdUsuario(int id)
+        {
+            return RepoUsuario.FindById(id);
+        }
+
+        //RESTO DE OPERACIONES FUNCIONALIDADES (CASOS DE USO) DE USUARIO
 
     }
 }

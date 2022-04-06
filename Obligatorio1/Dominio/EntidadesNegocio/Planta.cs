@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
-    class Planta
+    public class Planta
     {
         public enum TipoAmbiente { Interior, Exterior, Mixta  }
 

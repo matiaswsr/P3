@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
-    abstract class Compra
+    public abstract class Compra
     {
         public int Id { get; set; }
         public DateTime Fecha { get; set; }

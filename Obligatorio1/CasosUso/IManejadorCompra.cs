@@ -8,5 +8,10 @@ namespace CasosUso
 {
     interface IManejadorCompra
     {
+        bool AddCompra(Compra c);
+        bool RemoveCompra(int id);
+        bool UpdateCompra(Compra c);
+        IEnumerable<Compra> FindAllCompra();
+        Compra FindByIdCompra(int id);
     }
 }

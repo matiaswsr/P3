@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
-    class Importacion: Compra
+    public class Importacion: Compra
     {
         public string MedidasSanitarias { get; set; }
         public double TasaImpuestosDGI { get; set; }

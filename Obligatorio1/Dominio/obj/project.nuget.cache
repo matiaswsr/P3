@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MLnXuGu8VUB+Oz4lidDbTf5vr32/Vwabiey5I9HphUnuZfnh8KM7/rBM/CXDq5wn/jZ33FC0tjCtpmrDWf0BCw==",
+  "dgSpecHash": "KNQ9x71aVNKl/J0oGOWsxT3cBy7JD2+UeTGfl6sGofZ+pIOay50KgpTzO98xQ7DOXkLYdmVqP9c9f6Pz73avIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\scortes\\Desktop\\Obli P3\\Obligatorio1\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Silvina\\Downloads\\P3\\Obligatorio1\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\scortes\\.nuget\\packages\\sqlitepclraw.core\\2.0.7\\sqlitepclraw.core.2.0.7.nupkg.sha512",
-    "C:\\Users\\scortes\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\scortes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+    "C:\\Users\\Silvina\\.nuget\\packages\\sqlitepclraw.core\\2.0.7\\sqlitepclraw.core.2.0.7.nupkg.sha512",
+    "C:\\Users\\Silvina\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

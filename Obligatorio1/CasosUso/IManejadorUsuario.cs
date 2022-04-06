@@ -8,10 +8,10 @@ namespace CasosUso
 {
     public interface IManejadorUsuario
     {
-        bool AgregarNuevoUsuario(Usuario u);
-
-        bool DarDeBajaUsuario(int id);
-
-        IEnumerable<Usuario> TraerTodosUsuario();
+        bool AddUsuario(Usuario u);
+        bool RemoveUsuario(int id);
+        bool UpdateUsuario(Usuario u);
+        IEnumerable<Usuario> FindAllUsuario();
+        Usuario FindByIdUsuario(int id);
     }
 }
