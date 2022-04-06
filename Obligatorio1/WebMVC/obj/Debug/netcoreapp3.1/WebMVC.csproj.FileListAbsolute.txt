@@ -1,0 +1,8 @@
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.csproj.AssemblyReference.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.AssemblyInfoInputs.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.AssemblyInfo.cs
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.csproj.CoreCompileInputs.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.RazorAssemblyInfo.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\WebMVC\obj\Debug\netcoreapp3.1\WebMVC.RazorAssemblyInfo.cs

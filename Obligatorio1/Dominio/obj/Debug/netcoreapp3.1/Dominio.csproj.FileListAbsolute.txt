@@ -3,3 +3,8 @@ C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Do
 C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
 C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
 C:\Users\scortes\Desktop\Obli P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache

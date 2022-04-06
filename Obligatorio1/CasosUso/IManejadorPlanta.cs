@@ -6,7 +6,7 @@ using Dominio.InterfacesRepositorio;
 
 namespace CasosUso
 {
-    interface IManejadorPlanta
+    public interface IManejadorPlanta
     {
         bool AddTipoPlanta(Planta p);
         bool RemovePlanta(int id);

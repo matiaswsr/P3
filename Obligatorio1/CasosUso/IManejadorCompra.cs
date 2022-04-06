@@ -6,7 +6,7 @@ using Dominio.EntidadesNegocio;
 
 namespace CasosUso
 {
-    interface IManejadorCompra
+    public interface IManejadorCompra
     {
         bool AddCompra(Compra c);
         bool RemoveCompra(int id);

@@ -6,7 +6,7 @@ using Dominio.EntidadesNegocio;
 
 namespace CasosUso
 {
-    interface IManejadorTipoPlanta
+    public interface IManejadorTipoPlanta
     {
         bool AddTipoPlanta(TipoPlanta t);
         bool RemoveTipoPlanta(int id);
