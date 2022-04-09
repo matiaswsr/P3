@@ -18,6 +18,31 @@ namespace Repositorios
             throw new NotImplementedException();
         }
 
+        public IEnumerable<Planta> FindAllAlturaMax(double alturaMax)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Planta> FindAllAlturaMin(double alturaMin)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Planta> FindAllAmbiente(int idAmbiente)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Planta> FindAllNombre(string texto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Planta> FindAllTipo(int IdTipo)
+        {
+            throw new NotImplementedException();
+        }
+
         public Planta FindById(int id)
         {
             throw new NotImplementedException();

@@ -11,6 +11,14 @@ namespace Dominio.EntidadesNegocio
         public  List<Item> Productos { get; set; }
         public double PrecioTotal { get; set; }
 
+        public bool Validar()
+        {
+            //PENDIENTE
+            throw new NotImplementedException();
+            
+        }
+
+        public abstract string Tipo();
 
     }
 }

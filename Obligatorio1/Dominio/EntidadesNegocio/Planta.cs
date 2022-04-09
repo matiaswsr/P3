@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
-    public class Planta
+    public class Planta: IValidable
     {
         public enum TipoAmbiente { Interior, Exterior, Mixta  }
 
@@ -20,9 +20,11 @@ namespace Dominio.EntidadesNegocio
 
         public FichaCuidados Ficha { get; set; }
 
-
-
-
-
+        
+        public bool SoyValido()
+        {
+            //PENDIENTE
+            throw new NotImplementedException();
+        }
     }
 }

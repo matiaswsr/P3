@@ -4,11 +4,17 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
-    public class FichaCuidados
+    public class FichaCuidados: IValidable
     {
         public int Id { get; set; }
         public string TipoIluminacion { get; set; }
         public double Temperatura { get; set; }
         public string FrecuenciaRiego { get; set; }
+
+        public bool SoyValido()
+        {
+            //PENDIENTE
+            throw new NotImplementedException();
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace Repositorios
     {
         public static string ObtenerStringConexion()
         {
-            string strCone = "";
+            string strCone;
 
             ConfigurationBuilder cb = new ConfigurationBuilder();
             cb.AddJsonFile("appsettings.json");

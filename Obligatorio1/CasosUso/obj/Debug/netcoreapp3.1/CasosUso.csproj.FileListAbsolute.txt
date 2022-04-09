@@ -8,3 +8,13 @@ C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\Caso
 C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.AssemblyInfoInputs.cache
 C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.AssemblyInfo.cs
 C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.csproj.CoreCompileInputs.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\bin\Debug\netcoreapp3.1\CasosUso.deps.json
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\bin\Debug\netcoreapp3.1\CasosUso.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\bin\Debug\netcoreapp3.1\CasosUso.pdb
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\bin\Debug\netcoreapp3.1\Repositorios.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\bin\Debug\netcoreapp3.1\Repositorios.pdb
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.csproj.CopyComplete
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\CasosUso\obj\Debug\netcoreapp3.1\CasosUso.pdb

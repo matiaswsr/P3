@@ -6,36 +6,68 @@ using Dominio.InterfacesRepositorio;
 
 namespace CasosUso
 {
-    public class ManejadorTipoPlanta:IManejadorTipoPlanta
+    public class ManejadorTipoPlanta : IManejadorTipoPlanta
     {
         public IRepositorioTipoPlanta RepoTipoPlanta { get; set; }
 
         public bool AddTipoPlanta(TipoPlanta t)
         {
-            throw new NotImplementedException();
+
+            bool ok = false;
+
+            if (t.SoyValido())
+            {
+                ok = RepoTipoPlanta.Add(t);
+            }
+
+            return ok;
+
         }
 
         public IEnumerable<TipoPlanta> FindAllTipoPlanta()
         {
-            throw new NotImplementedException();
+            return RepoTipoPlanta.FindAll();
+            
         }
 
         public TipoPlanta FindByIdTipoPlanta(int id)
         {
-            throw new NotImplementedException();
+            return RepoTipoPlanta.FindById(id);
+            
         }
 
         public bool RemoveTipoPlanta(int id)
         {
-            throw new NotImplementedException();
+            bool ok = false;
+
+            TipoPlanta tipo = RepoTipoPlanta.FindById(id);
+            if (tipo != null)
+            {
+                ok = RepoTipoPlanta.Remove(id);
+            }
+
+            return ok;
         }
 
         public bool UpdateTipoPlanta(TipoPlanta t)
         {
-            throw new NotImplementedException();
+            bool ok;
+
+            TipoPlanta check = RepoTipoPlanta.FindById(t.Id);
+            if (t == check)
+            {
+                ok = true;
+            }
+            else
+            {
+                ok = RepoTipoPlanta.Update(t);
+            }
+
+
+            return ok;
         }
 
-        //RESTO DE OPERACIONES FUNCIONALIDADES (CASOS DE USO) DE TIPO PLANTA
+       
 
     }
 }

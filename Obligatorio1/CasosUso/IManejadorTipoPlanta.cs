@@ -13,5 +13,6 @@ namespace CasosUso
         bool UpdateTipoPlanta(TipoPlanta t);
         IEnumerable<TipoPlanta> FindAllTipoPlanta();
         TipoPlanta FindByIdTipoPlanta(int id);
+
     }
 }

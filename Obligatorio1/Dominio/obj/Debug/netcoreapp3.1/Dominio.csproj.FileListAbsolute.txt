@@ -8,3 +8,8 @@ C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Domin
 C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
 C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
 C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

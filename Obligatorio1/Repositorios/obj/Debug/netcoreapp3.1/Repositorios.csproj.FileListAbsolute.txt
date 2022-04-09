@@ -8,3 +8,11 @@ C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\obj\Debug\netcoreapp3.1\
 C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.AssemblyInfoInputs.cache
 C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.AssemblyInfo.cs
 C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.deps.json
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\bin\Debug\netcoreapp3.1\Repositorios.pdb
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.csproj.CopyComplete
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.dll
+C:\Users\Silvina\Downloads\P3\Obligatorio1\Repositorios\obj\Debug\netcoreapp3.1\Repositorios.pdb

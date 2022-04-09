@@ -9,5 +9,9 @@ namespace Dominio.EntidadesNegocio
         public double CostoFlete { get; set; }
         public double TasaIva { get; set; }
 
+        public override string Tipo()
+        {
+            return "Plaza";
+        }
     }
 }

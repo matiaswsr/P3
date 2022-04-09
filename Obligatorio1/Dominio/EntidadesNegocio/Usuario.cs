@@ -9,8 +9,11 @@ namespace Dominio.EntidadesNegocio
         public string Email { get; set; }
         public string Contrasenia { get; set; }
 
-        bool IValidable.SoyValido()
+        public int Id { get; set; }
+
+        public bool SoyValido()
         {
+            //PENDIENTE
             throw new NotImplementedException();
         }
     }

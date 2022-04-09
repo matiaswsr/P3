@@ -8,7 +8,7 @@ namespace CasosUso
 {
     public interface IManejadorPlanta
     {
-        bool AddTipoPlanta(Planta p);
+        bool AddTipoPlanta(Planta p, int IdTipoPlanta, int IdFichaCuidados);
         bool RemovePlanta(int id);
         bool UpdatePlanta(Planta p);
         IEnumerable<Planta> FindAllPlanta();

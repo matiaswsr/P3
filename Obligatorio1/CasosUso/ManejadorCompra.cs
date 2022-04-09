@@ -13,30 +13,55 @@ namespace CasosUso
 
         public bool AddCompra(Compra c)
         {
-            throw new NotImplementedException();
+            bool ok = false;
+            if (c.Validar())
+            {
+                ok = RepoCompra.Add(c);
+            }
+            return ok;
         }
 
         public IEnumerable<Compra> FindAllCompra()
         {
-            throw new NotImplementedException();
+            return RepoCompra.FindAll();
         }
 
         public Compra FindByIdCompra(int id)
         {
-            throw new NotImplementedException();
+            return RepoCompra.FindById(id);
         }
 
         public bool RemoveCompra(int id)
         {
-            throw new NotImplementedException();
+            bool ok = false;
+
+            Compra c = RepoCompra.FindById(id);
+            if (c != null)
+            {
+                RepoCompra.Remove(id);
+            }
+
+            return ok;
         }
 
         public bool UpdateCompra(Compra c)
         {
-            throw new NotImplementedException();
+            bool ok;
+
+            Compra check = RepoCompra.FindById(c.Id);
+            if (c == check)
+            {
+                ok = true;
+            }
+            else
+            {
+                ok = RepoCompra.Update(c);
+            }
+
+
+            return ok;
         }
 
-        //RESTO DE OPERACIONES FUNCIONALIDADES (CASOS DE USO) DE COMPRA
 
     }
 }
