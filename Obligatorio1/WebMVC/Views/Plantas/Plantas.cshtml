@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Dominio.EntidadesNegocio.Planta>
+@using Dominio.EntidadesNegocio
+
+@{
+    ViewData["Title"] = "Plantas";
+}
+
+<h1>Plantas</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCientifico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombresVulgares)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ambiente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlturaMax)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCientifico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombresVulgares)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ambiente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlturaMax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Foto)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

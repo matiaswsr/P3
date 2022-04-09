@@ -6,20 +6,29 @@ using System.Linq;
 using System.Threading.Tasks;
 using CasosUso;
 using Dominio.InterfacesRepositorio;
+using WebMVC.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
 
 
 namespace WebMVC.Controllers
 {
-    public class PlantaController : Controller
+    public class PlantasController : Controller
     {
 
         public IManejadorPlanta ManejadorPlanta { get; set; }
 
-        public PlantaController(IManejadorPlanta manejadorPlanta)
+        public IWebHostEnvironment WebHostEnvironment { get; set; }
+
+        public PlantasController(IManejadorPlanta manejadorPlanta)
         {
             ManejadorPlanta = manejadorPlanta;
         }
 
+        public IActionResult Plantas()
+        {
+            return View();
+        }
 
         // GET: PlantaController
         public ActionResult Index()

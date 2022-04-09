@@ -4,9 +4,11 @@ using System.Text;
 
 namespace Dominio.EntidadesNegocio
 {
+
+    public enum TipoAmbiente { Interior, Exterior, Mixta }
     public class Planta: IValidable
     {
-        public enum TipoAmbiente { Interior, Exterior, Mixta  }
+        
 
         public int Id { get; set; }
         public TipoPlanta Tipo { get; set; }

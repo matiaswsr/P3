@@ -6,7 +6,7 @@ using Dominio.InterfacesRepositorio;
 
 namespace Repositorios
 {
-    class RepositorioTipoPlanta : IRepositorioTipoPlanta
+    public class RepositorioTipoPlanta : IRepositorioTipoPlanta
     {
         public bool Add(TipoPlanta obj)
         {

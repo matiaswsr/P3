@@ -1,4 +1,4 @@
-﻿@model WebMVC.Models.ViewModelPlanta
+﻿@model WebMVC.Models.ViewModelPlantas
 
 @{
     ViewData["Title"] = "CreatePlanta";
@@ -13,14 +13,15 @@
         <form asp-action="CreatePlanta">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-            @*<div class="form-group">
+            <div class="form-group">
                 <select name="IdAmbiente" id="ambiente">
-                    @foreach (Dominio.EntidadesNegocio.Planta.TipoAmbiente ambiente in )
+                    (Suit suit in (Suit[]) Enum.GetValues(typeof(Suit)))
+                    @foreach (Dominio.EntidadesNegocio.TipoAmbiente ambiente in (Dominio.EntidadesNegocio.TipoAmbiente[]) Enum.GetValues(typeof(Dominio.EntidadesNegocio.TipoAmbiente)) )
                     {
-                    <option value="@ambiente.ToString()">@ambiente.ToString()</option>
+                        <option value="@ambiente">@ambiente.ToString()</option>
                     }
                 </select>
-            </div>*@
+            </div>
             <div class="form-group">
                 <select name="IdTipo" id="tipoPlanta">
                     @foreach (Dominio.EntidadesNegocio.TipoPlanta tipo in Model.Tipos)

@@ -11,4 +11,8 @@
     <PackageReference Include="SQLitePCLRaw.core" Version="2.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
 </Project>

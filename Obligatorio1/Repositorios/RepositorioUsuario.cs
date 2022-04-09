@@ -6,7 +6,7 @@ using Dominio.EntidadesNegocio;
 
 namespace Repositorios
 {
-    class RepositorioUsuario: IRepositorioUsuario
+    public class RepositorioUsuario: IRepositorioUsuario
     {
         public bool Add(Usuario u)
         {

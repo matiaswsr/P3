@@ -7,12 +7,10 @@ using Microsoft.AspNetCore.Http;
 
 namespace WebMVC.Models
 {
-    public class ViewModelPlanta
+    public class ViewModelPlantas
     {
         public IEnumerable<TipoPlanta> Tipos { get; set; }
         public IEnumerable<FichaCuidados> Fichas { get; set; }
-
-        public enum TipoAmbiente { Interior, Exterior, Mixta } 
 
         public IFormFile Imagen { get; set; }
 
@@ -20,5 +18,7 @@ namespace WebMVC.Models
         public int IdFicha { get; set; }
 
         public Planta Planta { get; set; }
+
+
     }
 }

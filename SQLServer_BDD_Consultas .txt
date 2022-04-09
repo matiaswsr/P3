@@ -1,0 +1,97 @@
+use P3Obligatorio1
+
+CREATE TABLE Usuario (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+    Email VARCHAR (50) NOT NULL UNIQUE,
+    Contrasenia VARCHAR (50) NOT NULL 
+);
+
+CREATE TABLE TipoPlanta (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+    Nombre VARCHAR (50) NOT NULL UNIQUE,
+    Descripcion VARCHAR (50) 
+);
+
+CREATE TABLE FichaCuidados (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+    Temperatura DECIMAL,
+    FrecuenciaRiego VARCHAR (50),
+	TipoIluminacion VARCHAR (50) 
+);
+
+CREATE TABLE Compra (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+    PrecioTotal DECIMAL NOT NULL,
+    Fecha DATETIME NOT NULL 
+);
+
+CREATE TABLE Planta (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+	IdTipo INT NOT NULL,
+    FOREIGN KEY (IdTipo) REFERENCES TipoPlanta (Id),
+	IdFicha INT NOT NULL,
+    FOREIGN KEY (IdFicha) REFERENCES FichaCuidados (Id),
+    NombreCientifico VARCHAR (50) NOT NULL UNIQUE,
+    Descripcion VARCHAR (50),	
+    Foto VARCHAR(50) NOT NULL,
+	Ambiente VARCHAR(50),
+    AlturaMax DECIMAL,
+	
+    
+);
+
+CREATE TABLE PlantaNombreVul (
+    NombreVulgar VARCHAR(50) PRIMARY KEY NOT NULL,
+	IdPlanta INT NOT NULL,
+    FOREIGN KEY (IdPlanta) REFERENCES Planta (Id),
+	
+        
+);
+
+CREATE TABLE CompraItem (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+	IdCompra INT NOT NULL,
+    FOREIGN KEY (IdCompra) REFERENCES Compra (Id),
+	IdPlanta INT NOT NULL,
+    FOREIGN KEY (IdPlanta) REFERENCES Planta (Id),
+    Cantidad INT NOT NULL,
+    PrecioUnitario DECIMAL NOT NULL,
+	
+    
+);
+
+CREATE TABLE CompraPlaza (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+	IdCompra INT NOT NULL,
+    FOREIGN KEY (IdCompra) REFERENCES Compra (Id),
+	TasaIva DECIMAL NOT NULL,
+    CostoFlete DECIMAL NOT NULL,	
+    
+);
+
+CREATE TABLE CompraImportacion (
+    Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
+	IdCompra INT NOT NULL,
+    FOREIGN KEY (IdCompra) REFERENCES Compra (Id),
+	TasaImpuestoDgi DECIMAL NOT NULL,
+    TasaAdelSur DECIMAL NOT NULL,	
+	EsDeAmericaDelSur BIT NOT NULL,
+	MedidasSanitarias VARCHAR(75)
+    
+);
+
+USE [P3Obligatorio1]
+GO
+
+INSERT INTO TipoPlanta
+VALUES ('Frutal', 'Un árbol frutal es cualquier árbol productor de frutas, cuyas estructuras formadas por el óvulo maduro de una flor, contiene una o más semillas.')
+
+INSERT INTO TipoPlanta
+VALUES('Ornamentales', 'Cultivadas con fines meramente decorativos en interiores y jardines, así como en proyectos de diseño arquitectónico y paisajístico.')
+
+
+INSERT INTO TipoPlanta
+VALUES('Aromáticas', 'Utilizadas en la cocina mediterránea por sus cualidades aromáticas y condimentarias.')
+
+INSERT INTO TipoPlanta
+VALUES('Suculentas', 'Poseen al menos un órgano especializado en el almacenamiento de agua en cantidades mayores que las plantas sin esta adaptación.')

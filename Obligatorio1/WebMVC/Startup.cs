@@ -30,6 +30,15 @@ namespace WebMVC
             services.AddControllersWithViews();
 
             services.AddScoped<IManejadorUsuario, ManejadorUsuario>();
+            services.AddScoped<IRepositorioUsuario, RepositorioUsuario>();
+            services.AddScoped<IManejadorPlanta, ManejadorPlanta>();
+            services.AddScoped<IRepositorioPlanta, RepositorioPlanta>();
+            services.AddScoped<IManejadorTipoPlanta, ManejadorTipoPlanta>();
+            services.AddScoped<IRepositorioTipoPlanta, RepositorioTipoPlanta>();
+            services.AddScoped<IManejadorFichaCuidados, ManejadorFichaCuidados>();
+            services.AddScoped<IRepositorioFichaCuidados, RepositorioFichaCuidados>();
+            services.AddScoped<IManejadorCompra, ManejadorCompra>();
+            services.AddScoped<IRepositorioCompra, RepositorioCompra>();
 
         }
 
