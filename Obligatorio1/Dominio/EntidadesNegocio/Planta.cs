@@ -14,9 +14,9 @@ namespace Dominio.EntidadesNegocio
         public TipoPlanta Tipo { get; set; }
         public string NombreCientifico { get; set; }
         public string Descripcion { get; set; }
-        public string NombresVulgares { get; set; }
+        public List<string> NombresVulgares { get; set; }
         public TipoAmbiente Ambiente { get; set; }
-        public double AlturaMax { get; set; }
+        public decimal AlturaMax { get; set; }
 
         public string Foto { get; set; }
 

@@ -1,31 +1,31 @@
 use P3Obligatorio1
 
-CREATE TABLE Usuario (
+CREATE TABLE Usuarios (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
     Email VARCHAR (50) NOT NULL UNIQUE,
     Contrasenia VARCHAR (50) NOT NULL 
 );
 
-CREATE TABLE TipoPlanta (
+CREATE TABLE TiposPlanta (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
     Nombre VARCHAR (50) NOT NULL UNIQUE,
-    Descripcion VARCHAR (50) 
+    Descripcion VARCHAR (200) 
 );
 
-CREATE TABLE FichaCuidados (
+CREATE TABLE FichasCuidados (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
-    Temperatura DECIMAL,
+    Temperatura DECIMAL(3,1),
     FrecuenciaRiego VARCHAR (50),
 	TipoIluminacion VARCHAR (50) 
 );
 
-CREATE TABLE Compra (
+CREATE TABLE Compras (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
-    PrecioTotal DECIMAL NOT NULL,
+    PrecioTotal DECIMAL(7,2) NOT NULL,
     Fecha DATETIME NOT NULL 
 );
 
-CREATE TABLE Planta (
+CREATE TABLE Plantas (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
 	IdTipo INT NOT NULL,
     FOREIGN KEY (IdTipo) REFERENCES TipoPlanta (Id),
@@ -35,12 +35,12 @@ CREATE TABLE Planta (
     Descripcion VARCHAR (50),	
     Foto VARCHAR(50) NOT NULL,
 	Ambiente VARCHAR(50),
-    AlturaMax DECIMAL,
+    AlturaMax DECIMAL(7,2),
 	
     
 );
 
-CREATE TABLE PlantaNombreVul (
+CREATE TABLE PlantasNombreVul (
     NombreVulgar VARCHAR(50) PRIMARY KEY NOT NULL,
 	IdPlanta INT NOT NULL,
     FOREIGN KEY (IdPlanta) REFERENCES Planta (Id),
@@ -48,33 +48,33 @@ CREATE TABLE PlantaNombreVul (
         
 );
 
-CREATE TABLE CompraItem (
+CREATE TABLE CompraItems (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
 	IdCompra INT NOT NULL,
     FOREIGN KEY (IdCompra) REFERENCES Compra (Id),
 	IdPlanta INT NOT NULL,
     FOREIGN KEY (IdPlanta) REFERENCES Planta (Id),
     Cantidad INT NOT NULL,
-    PrecioUnitario DECIMAL NOT NULL,
+    PrecioUnitario DECIMAL(7,2) NOT NULL,
 	
     
 );
 
-CREATE TABLE CompraPlaza (
+CREATE TABLE ComprasPlaza (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
 	IdCompra INT NOT NULL,
     FOREIGN KEY (IdCompra) REFERENCES Compra (Id),
-	TasaIva DECIMAL NOT NULL,
-    CostoFlete DECIMAL NOT NULL,	
+	TasaIva DECIMAL(4,2) NOT NULL,
+    CostoFlete DECIMAL(7,5) NOT NULL,	
     
 );
 
-CREATE TABLE CompraImportacion (
+CREATE TABLE ComprasImportacion (
     Id INT PRIMARY KEY IDENTITY (1, 1) NOT NULL,
 	IdCompra INT NOT NULL,
     FOREIGN KEY (IdCompra) REFERENCES Compra (Id),
-	TasaImpuestoDgi DECIMAL NOT NULL,
-    TasaAdelSur DECIMAL NOT NULL,	
+	TasaImpuestoDgi DECIMAL(4,2) NOT NULL,
+    TasaAdelSur DECIMAL(4,2) NOT NULL,	
 	EsDeAmericaDelSur BIT NOT NULL,
 	MedidasSanitarias VARCHAR(75)
     
@@ -83,15 +83,15 @@ CREATE TABLE CompraImportacion (
 USE [P3Obligatorio1]
 GO
 
-INSERT INTO TipoPlanta
+INSERT INTO TiposPlanta
 VALUES ('Frutal', 'Un árbol frutal es cualquier árbol productor de frutas, cuyas estructuras formadas por el óvulo maduro de una flor, contiene una o más semillas.')
 
-INSERT INTO TipoPlanta
+INSERT INTO TiposPlanta
 VALUES('Ornamentales', 'Cultivadas con fines meramente decorativos en interiores y jardines, así como en proyectos de diseño arquitectónico y paisajístico.')
 
 
-INSERT INTO TipoPlanta
+INSERT INTO TiposPlanta
 VALUES('Aromáticas', 'Utilizadas en la cocina mediterránea por sus cualidades aromáticas y condimentarias.')
 
-INSERT INTO TipoPlanta
+INSERT INTO TiposPlanta
 VALUES('Suculentas', 'Poseen al menos un órgano especializado en el almacenamiento de agua en cantidades mayores que las plantas sin esta adaptación.')

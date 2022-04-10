@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CasosUso;
+using Dominio.EntidadesNegocio;
 using Dominio.InterfacesRepositorio;
 using WebMVC.Models;
 using Microsoft.AspNetCore.Hosting;
@@ -20,14 +21,16 @@ namespace WebMVC.Controllers
 
         public IWebHostEnvironment WebHostEnvironment { get; set; }
 
-        public PlantasController(IManejadorPlanta manejadorPlanta)
+        public PlantasController(IManejadorPlanta manejadorPlanta, IWebHostEnvironment webHostEnv)
         {
             ManejadorPlanta = manejadorPlanta;
+            WebHostEnvironment = webHostEnv;
         }
 
         public IActionResult Plantas()
         {
-            return View();
+            IEnumerable<Planta> plantas = ManejadorPlanta.FindAllPlanta();
+            return View(plantas);
         }
 
         // GET: PlantaController
@@ -43,7 +46,7 @@ namespace WebMVC.Controllers
         }
 
         // GET: PlantaController/Create
-        public ActionResult Create()
+        public ActionResult CreatePlanta()
         {
             return View();
         }
